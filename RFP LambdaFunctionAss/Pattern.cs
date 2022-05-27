@@ -32,5 +32,11 @@ namespace RFP_LambdaFunctionAss
         {
             return Regex.IsMatch(phoneno, REGEX_PHONENO);
         }
+
+        public static string REGEX_PASSWORD = "^[A-Za-z]{8,}$";
+        public bool validatePassword(string password)
+        {
+            return Regex.IsMatch(password, REGEX_PASSWORD);
+        }
     }
 }

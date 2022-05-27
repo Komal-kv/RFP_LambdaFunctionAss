@@ -9,3 +9,4 @@ Console.WriteLine(patterns.validateFirstName("Komal"));
 Console.WriteLine(patterns.validateLastName("Vairagade"));
 Console.WriteLine(patterns.validateEmail("divyavairagade@gmail.com"));
 Console.WriteLine(patterns.validatePhoneNo("91 8788254798"));
+Console.WriteLine(patterns.validatePassword("bridgelabz"));
